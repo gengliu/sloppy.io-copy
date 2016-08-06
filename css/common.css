@@ -1,0 +1,313 @@
+
+.inline-block {
+    display: inline-block;
+}
+b, optgroup, strong {
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+.text-link, a {
+    color: #3BB8ED;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+small {
+    font-size: 80%;
+}
+
+code, kbd, pre, samp {
+    font-family: monospace,monospace;
+    font-size: 1em;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+i {
+    width: 2em;
+    height: 2em;
+    vertical-align: -.7em;
+    display: inline-block;
+}
+
+/* position*/
+.position-absolute {
+    position: absolute;
+}
+
+.l100 {
+    left: 100%;
+}
+.y0 {
+    top: 0;
+    bottom: 0;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.block {
+    display: block;
+}
+/* padding common style*/
+.p1 {
+    padding: 10px;
+}
+.pl1 {
+    padding-left: 10px;
+}
+
+.pb1, .py1 {
+    padding-bottom: 10px;
+}
+.pt1, .py1 {
+    padding-top: 10px;
+}
+.pr1, .px1 {
+    padding-right: 10px;
+}
+.pl1, .px1 {
+    padding-left: 10px;
+}
+.p2 {
+    padding: 20px;
+}
+.pr2, .px2 {
+    padding-right: 20px;
+}
+.pl2, .px2 {
+    padding-left: 20px;
+}
+.pb2, .py2 {
+    padding-bottom: 20px;
+}
+.pt2, .py2 {
+    padding-top: 20px;
+}
+
+
+/*margin common style*/
+.ml-auto, .mx-auto {
+    margin-left: auto;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto;
+}
+.mt2 {
+    margin-top: 20px;
+}
+/* width height*/
+.height-100 {
+    height: 100%;
+}
+.width-100 {
+    width: 100%;
+}
+
+
+/* text style*/
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-align-right {
+    text-align: right;
+}
+.text-align-right {
+    text-align: right;
+}
+
+/*color common style*/
+.color-green {
+    color: #6d841c;
+}
+
+.color-primary {
+    color: #3BB8ED;
+}
+
+.color-red {
+    color: #d00000;
+}
+
+.color-inverted-text {
+    color: #fff;
+}
+
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    line-height: 1.4;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+input:not([type=range]):not([type=checkbox]):not([type=radio]):not([type=submit]) {
+    vertical-align: middle;
+    border: 1px solid #dad8d9;
+    padding: 10px;
+}
+
+/* button commmon style*/
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: .5em 1em;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: none;
+    white-space: nowrap;
+    color: #fff;
+    font-size: .875rem;
+}
+
+.btn--primary {
+    background: #3BB8ED;
+}
+
+.btn--faceless {
+    background-color: transparent;
+    color: inherit;
+}
+.btn--icon {
+    padding: 1em;
+    width: 80px;
+}
+
+/* icon style*/
+
+.icon--inline {
+    vertical-align: baseline;
+    width: .85em;
+    height: .85em;
+}
+.icon-label--bottom {
+    padding-top: .35em;
+}
+.icon-label--right {
+    padding-left: .7em;
+}
+
+.icon--inline, i {
+    display: inline-block;
+}
+
+/*card common style*/
+.card {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.card__label {
+    font-size: 12px;
+    color: #32383d;
+    display: block;
+}
+.card__value {
+    font-size: 16px;
+    display: block;
+}
+.truncate {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*bg common style*/
+
+.bg-gray-10 {
+    background-color: #e6e6e6;
+}
+.bg-gray-15-tinted {
+    background-color: #dad8d9;
+}
+
+
+/*list style */
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* flex common*/
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-align-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.col-1 {
+    width: 8.33333%;
+}
+.col-2 {
+    width: 16.66667%;
+}
+.col-4 {
+    width: 33.33333%;
+}
+.col-12, .container {
+    width: 100%;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**/
+.push-up-from-footer {
+    padding-bottom: 100px;
+}
+.push-down-from-header {
+    padding-top: 80px;
+}
+
+.status-bar {
+    min-height: 90px;
+    padding: 20px;
+    background-color: #fff;
+}
+.status-bar-label {
+    font-size: 1rem;
+    color: #999;
+}
+
+.status-bar-value {
+    font-size: 1.5rem;
+    color: #575757;
+}
