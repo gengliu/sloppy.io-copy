@@ -1,0 +1,1 @@
+## sloppy.io copy page style and function
